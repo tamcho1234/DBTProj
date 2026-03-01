@@ -1,0 +1,11 @@
+solo_dbt_project:
+  outputs:
+    dev:
+      catalog: dbtproject
+      host: dbc-a9721c25-3a53.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/686774df7bcbd965
+      schema: schema
+      threads: 1
+      token: 
+      type: databricks
+  target: dev
